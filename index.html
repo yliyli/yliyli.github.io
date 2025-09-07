@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yiyang Li - Personal Website</title>
+  <style>
+    :root {
+      --ut-orange: #BF5700; /* UT Austin Orange */
+      --jhu-blue: #002D72; /* Johns Hopkins Blue */
+      --white: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--white);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--jhu-blue);
+      color: var(--white);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 0.3rem 0;
+    }
+
+    nav {
+      background: var(--ut-orange);
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      padding: 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background: #a04600;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      color: var(--jhu-blue);
+      border-bottom: 3px solid var(--ut-orange);
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    .photo-placeholder {
+      width: 180px;
+      height: 220px;
+      border: 2px dashed var(--ut-orange);
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background: var(--jhu-blue);
+      color: var(--white);
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yiyang Li</h1>
+    <p>Email: <a href="mailto:lyylyy0204@gmail.com" style="color:white;">lyylyy0204@gmail.com</a></p>
+  </header>
+
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#publications">Publications</a>
+    <a href="#research">Research</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="photo-placeholder">Insert Photo Here</div>
+      <p>Hello! I am a Ph.D. student with strong interests in signal processing, machine learning, and deep learning applications in wireless communication and sensing. This website highlights my background, publications, and research directions.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><b>M.S. Computer Science</b>, Johns Hopkins University, 2024</li>
+        <li><b>B.S. Computer Science, Computer Engineering, Electrical Engineering</b>, Johns Hopkins University, 2023<br>
+        Minors: Mathematics</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ol>
+        <li>Yiyang Li and Webert Montlouis, <i>Radar Target DOA Estimation Using Deep Learning</i>, 5th International Conference on Advances in Signal Processing and Artificial Intelligence, June 2023.</li>
+        <li>Webert Montlouis and Yiyang Li, <i>Robust DOA Estimation in Low SNR Environment Using CNN</i>, Sensors and Transducers, September 2023.</li>
+        <li>Jesua Epequin, Yiting Dong, Jun Ma, Yi Li, Qiufeng Zheng, Wenrang Zhang, and Yiyang Li. <i>Voting Multihead Convolutional Network for Defect Detection in Concrete Structures</i>, Accepted by ICONE 32, June 2025.</li>
+      </ol>
+    </section>
+
+    <section id="research">
+      <h2>Research Directions</h2>
+      <p>[Space reserved for you to describe your current research directions]</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:lyylyy0204@gmail.com">lyylyy0204@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Yiyang Li</p>
+  </footer>
+</body>
+</html>
